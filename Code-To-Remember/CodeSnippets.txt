@@ -1,0 +1,4 @@
+1. String length - str.length()
+2. Array length - arr.length
+3. List sort - Collections.sort(list);
+4. Array sort - Arrays.sort(nums);
