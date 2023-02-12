@@ -2,3 +2,26 @@
 2. Array length - arr.length
 3. List sort - Collections.sort(list);
 4. Array sort - Arrays.sort(nums);
+5. In linkedlists, if you want to start a new list and which node is next, it is a good idea to start with
+    preHead = new ListNode(-1), and start adding nodes to it as we process further, by
+    preHead.next = newProcessedNode;
+    And finally return preHead.next
+6. HashMap
+    Example: HashMap<Integer, Character> map = new HashMap<>();
+    map.put(10, 'A');
+
+    Example: HashMap<Character, Character> map = new HashMap<>();
+        map.put('(', ')'); - in valid paranthesis
+
+    map.get(ch) // map.get(key)
+
+7. Stacks
+    stack.push(<ele>)
+    ele = stack.pop()
+    boolean isEmpty = stack.isEmpty()
+
+8. To find a minimum, initiate => int minSoFar = Integer.MAX_VALUE;
+    then compare if(minSoFar<nums), then minSoFar=nums
+    Similarly, int maxSoFar = Integer.MIN_VALUE;
+
+9.

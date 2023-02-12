@@ -5,7 +5,7 @@ public class SumOfThree{
         // Write your code here
         Arrays.sort(nums); // O(NlogN)
         int current = 0;
-        while(current<nums.length-1){
+        while(current<nums.length-1){ //O(N) * O(N) from the inner-while loop
             int low = current+1;
             int high = nums.length-1;
             while(current<nums.length-1 && low<high){
